@@ -1,0 +1,34 @@
+html {
+    height: 100vh;
+    background-color: black;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: grid;
+    box-sizing: border-box;
+    border: 4px solid gray;
+    width: 50vh;
+    height: 50vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+button {
+    height: 1%;
+}
