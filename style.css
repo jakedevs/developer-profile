@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  color: black;
+  color: green;
   width: 100%;
 }
 
@@ -11,20 +11,32 @@ body {
 }
 
 header {
-  background-color: gray;
+  display: flex;
+  background-color: black;
+  border-bottom: 1px solid green;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .wrapper {
   height: 100%;
 }
 
-main {
-}
 
 .mainwrapper {
   display: flex;
   height: 100%;
+  background-color: black;
 }
+
+main {
+  margin: auto 12px auto 12px;
+}
+
 
 .slideout {
   font-size: 22px;
@@ -34,5 +46,8 @@ main {
 }
 
 .content {
-  border: 1px solid black;
+}
+
+a {
+  color: green;
 }
