@@ -1,0 +1,6 @@
+[submodule "projects/etch-a-sketch"]
+	path = projects/etch-a-sketch
+	url = git@codeberg.org:jakedevs/etch-a-sketch.git
+[submodule "projects/js-calculator"]
+	path = projects/js-calculator
+	url = git@codeberg.org:jakedevs/js-calculator.git
