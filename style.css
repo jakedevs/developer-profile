@@ -49,9 +49,12 @@ main {
   height: 100%;
 }
 
-.content {
-}
 
 a {
   color: green;
+}
+
+article > h1 {
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
