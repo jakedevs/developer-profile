@@ -21,7 +21,6 @@ header {
   height: 40px;
   justify-content: space-around;
   align-items: center;
-  padding-top: 5px;
   font-size: 22px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -42,19 +41,16 @@ main {
 }
 
 
-.slideout {
-  font-size: 22px;
-  align-self: flex-start;
-  background-color: gray;
-  height: 100%;
-}
-
-
 a {
   color: green;
 }
 
 article > h1 {
-  font-size: 30px;
+  font-size: 2.2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article > p {
+  font-size: 1.2rem;
+  font-family: Arial;
 }
