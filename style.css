@@ -9,6 +9,25 @@ body {
   src: url(./assets/fonts/Hack-Regular.ttf);
 }
 
+@media only screen and (max-width: 768px) {
+
+  #announcements {
+    display: none;
+  }
+
+  #articles > article {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-width: none;
+  }
+
+  #articles {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    width: 100%;
+  }
+}
+
 .container {
   display: grid;
   color: #dcd7ba;
