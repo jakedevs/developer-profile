@@ -11,8 +11,13 @@ body {
 
 @media only screen and (max-width: 768px) {
   #articlename {
-  justify-self: center;
+    justify-self: center;
   }
+
+  #content > p {
+    font-size: 1.2rem;
+  }
+  
 }
 
 .container {

@@ -11,7 +11,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   #articlename {
-  justify-self: center;
+    justify-self: center;
+  }
+
+  #content > p {
+    font-size: 2rem;
   }
 }
 
@@ -53,6 +57,7 @@ body {
   padding-right: 10%;
   padding-left: 10%;
 }
+
 #articles {
   display: flex;
   flex-direction: column;
