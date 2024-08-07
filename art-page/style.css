@@ -1,0 +1,36 @@
+body {
+	background: #1F1F28;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+}
+
+.header {
+	color: whitesmoke;
+	font-size: 24px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2A2A37;
+	padding: 16px;
+}
+
+.art-gallery {
+	height: 100%;
+	padding: 32px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 48px;
+}
+
+img {
+	border: 4px solid #53536e;
+	border-radius: 12px;
+	height: auto;
+	width: 250px;
+}

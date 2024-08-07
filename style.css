@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background-color: #1f1f28;
 }
 
 @font-face {
@@ -15,7 +16,7 @@ body {
     display: none;
   }
 
-  #articles > article {
+  #articles>article {
     grid-column-start: 1;
     grid-column-end: 2;
     max-width: none;
@@ -36,27 +37,15 @@ body {
   grid-template-rows: 0.5fr 6fr 0.5fr;
 }
 
-#header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: space-around;
-  font-family: Hack;
-  grid-column: 1;
-  grid-row-start: 1;
-  background-color: #2a2a37;
-  padding: 0px 20px 0px 20px;
-  border-bottom: 2px solid #16161d;
-}
+/* #header { */
+/* background: #2A2A37; */
+/* display: flex; */
+/* justify-content: space-between; */
+/* padding: 16px; */
+/* } */
 
-#headerwelcome {
-  background-color: #1f1f28;
-  width: fit-content;
-  height: fit-content;
-  padding: 10px 10px 10px 10px;
-  font-size: 1.5rem;
-  grid-row-start: 2;
-}
+
+
 
 #content {
   background-color: #1f1f28;
@@ -96,7 +85,7 @@ a:active {
   font-family: Hack;
 }
 
-#blogpost > a {
+#blogpost>a {
   font-size: 2rem;
 }
 
@@ -112,17 +101,17 @@ a:active {
   margin-top: 20px;
 }
 
-#announcements > h1 {
+#announcements>h1 {
   font-size: 1.5rem;
   text-align: center;
 }
 
-#announcements > h2 {
+#announcements>h2 {
   font-size: 1.2rem;
   text-align: center;
 }
 
-#announcements > p {
+#announcements>p {
   font-size: 1rem;
   text-align: center;
 }
@@ -134,15 +123,26 @@ a:active {
   margin-right: 20px;
 }
 
-#footer {
+.footer,
+.header {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: #2a2a37;
-  grid-row-start: 3;
 
-  border-top: 2px solid #16161d;
   font-size: 1rem;
   color: #a5aab5;
   font-family: Hack;
+}
+
+.footer {
+  justify-content: space-around;
+  grid-row-start: 3;
+  border-top: 2px solid #16161d;
+
+}
+
+.header {
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 2px solid #16161d;
 }
