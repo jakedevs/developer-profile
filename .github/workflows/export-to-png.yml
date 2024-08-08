@@ -35,8 +35,8 @@ jobs:
           ls
           cd Art
           ls
-          chmod +x export.sh
+          # chmod +x export.sh
           # sudo apt update
           # sudo apt upgrade -y
-          sudo apt install krita -y
-          ./export.sh
+          # sudo apt install krita -y
+          # ./export.sh
