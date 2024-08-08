@@ -34,4 +34,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/assets/art
           chmod +x export.sh
+          apt update
+          apt upgrade -y
+          apt install krita -y
           ./export.sh
