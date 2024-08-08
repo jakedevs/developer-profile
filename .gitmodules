@@ -1,0 +1,4 @@
+
+[submodule "Art"]
+	path = Art
+	url = https://codeberg.org/jakedevs/Art.git
