@@ -33,4 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd $GITHUB_WORKSPACE/assets/art
+          chmod +x export.sh
           ./export.sh
