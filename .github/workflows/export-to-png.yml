@@ -33,6 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd Art
+          ls
           chmod +x export.sh
           # sudo apt update
           # sudo apt upgrade -y
